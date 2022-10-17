@@ -1,0 +1,8 @@
+.nav-container a {
+    text-decoration: none;
+    color: firebrick;
+    padding: 0 5px;
+}
+.nav-container {
+    margin: 10px 0;
+}

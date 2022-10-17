@@ -1,0 +1,12 @@
+.tshirt-single img {
+    max-width: 75% ;
+    max-height: 250px;
+}
+
+.tshirt-single{
+    max-width: 400px;
+    max-height: 650px;
+    border: 2px solid saddlebrown;
+    padding: 5px;
+    margin: 5px;
+}

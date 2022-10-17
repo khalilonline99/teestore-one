@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Cart = ({ cart }) => {
-    console.log(cart);
+const Cart = ({ cart,handleRemoveItem }) => {
+    // console.log(cart);
     return (
         <div>
             <h3>Cart Summary</h3>
@@ -10,7 +10,7 @@ const Cart = ({ cart }) => {
                 cart.map(tshirt => <p
                     key={tshirt._id}>
                     {tshirt.name}
-                    <button>X</button>
+                    <button onClick={() => handleRemoveItem(tshirt)}>X</button>
                     </p>)
             }
         </div>
